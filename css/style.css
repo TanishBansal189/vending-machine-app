@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    height: 65px
+}
+.logo-txt{
+    color : #FFA302
+}
+.hover1:hover{
+    color: skyblue;
+}
+.fxl{
+    font-size:50px;
+}
+.mt-5{
+    margin-top: 5rem;
+}
+.mt-3{
+    margin-top: 2rem;
+}
+.text-center{
+    text-align: center;
+}
+.text-aqua{
+    color : aqua
+}
+.text-white2{
+    color: #d3d0cd;
+  
+}
+.text-sky{
+    color: skyblue;
+}
+.text-sub{
+    font-size: 2.3rem;
+}
+.text-sm{
+    font-size: 2rem;
+}
+.text-2xl{
+    font-size: 1.5rem;
+}
+.p-2{
+    padding:0.75rem 
+}
+.main-1{
+    position: relative;
+}
+.bg-img{
+    margin-top: 0;
+    height: 65vh;
+    background-image: url(/imgs/mission.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-position: bottom;
+   filter: brightness(0.3)
+}
+
+.content-1{
+    flex-direction: column;
+    position: absolute; 
+    top: 40%; 
+    left: 50%; 
+    transform: translate(-50%, -50%)
+}
+.btn-1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+ .right{
+    margin-left: 10px;
+ }
+.green{
+    background-color: green;
+}
+.ml-20{
+    margin-left: 20px;
+}
+.mr-20{
+    margin-right: 20px;
+}
+.step-content{
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr;
+    gap: 1.3rem;
+}
+.sdg1{
+    height:230px;
+}
+.sdgs{
+    justify-content: center;
+}
+.footer {
+ 
+    color: #fff;
+    padding: 40px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 220px;
+    margin: 10px 0;
+}
+
+.footer-section h3 {
+    margin-bottom: 20px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #ffa500;
+}
+
+.footer-section .social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.footer-section .social-links a:hover {
+    color: #ffa500;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    background-color: blue;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+.footer-section .contact ul li i {
+    margin-right: 10px;
+}

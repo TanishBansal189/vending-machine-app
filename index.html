@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vending machine app</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-[#0E0F10]">
+    <nav class="nav-bar flex justify-between bg-[#2E3192] items-center  text-xl  text-white">
+        <div class="logo mx-10 flex items-center gap-5">
+            <img src="imgs/logo.png" class="logo ">
+        </div>
+        <div class="components hidden md:flex gap-10 items-center">
+            <div class="home   hover1">
+                <a href="/ "> Home</a>
+            </div>
+            <div class="book  hover1">
+                <a href="/book"> About</a>
+            </div>
+            <div class="sign-in rounded-lg p-1  hover1">
+                <a href="/user/signin"> Sign-In</a>
+            </div>
+            <div class="sign-up mr-6  hover1">
+                <a href="/user/signup">Sign-Up</a>
+            </div>
+        </div>
+    </nav>
+    <main>
+    <div class="main-1 ">
+        <div class="bg-img"></div>  
+        <div class="content-1">
+            <h1 class="mt-5 text-center text-aqua  fxl"> A mission to stop poverty in India</h1>
+            <h2 class="text-white2 text-sub"> Join our services of making India 
+                a zero hunger and no unemployment country </h2>
+            <button class=" btn-1 text-white bg-[#2E3192] text-2xl p-2 rounded-lg "> Sign-Up</button>
+        </div>
+    </div>
+    <div class="main-2 flex mt-3  ">
+        <div class="left  w-1/2 text-center">
+            <h1 class="fxl  text-white "> Poor Vendeer</h1>
+            <h2 class="text-sub text-sky"> A machine which will take away all the problems of poor people and will make India a fully employed country</h2>
+        </div>
+        <div class="right w-1/2">
+            <img class="img1" src="imgs/Snacks-Vending-Machine.png">
+        </div>
+    </div>
+    <hr/>
+    <div class="steps mt-3">
+        <h1 class="text-white fxl text-center"> How it works </h1>
+        <div class="step-content">
+        <div class="step bg-[#2E3192] ml-20   text-white rounded-lg">
+            <p class="fxl text-center"> Step-1</p> 
+             <p class="text-sm text-center"> Recognition through Face by machine </p>
+        </div>
+        <div class="step bg-[#2E3192]    text-white rounded-lg">
+            <p class="fxl text-center"> Step-2</p> 
+             <p class="text-sm text-center"> Machine will supply eatables and some monney and will register with by an id which would be given as a token by the machine</p>
+        </div>
+        <div class="step bg-[#2E3192]  mr-20  text-white rounded-lg">
+            <p class="fxl text-center"> Step-3</p> 
+             <p class="text-sm text-center"> The shops would be setup by communities which will give employment to these people</p>
+        </div>
+        <div class="step bg-[#2E3192] ml-20   text-white rounded-lg">
+            <p class="fxl text-center"> Step-4</p> 
+             <p class="text-sm text-center">The registered person have to work at any of these shops</p>
+        </div>
+        <div class="step bg-[#2E3192]  text-white rounded-lg">
+            <p class="fxl text-center"> Step-5</p> 
+             <p class="text-sm text-center"> He would get reward points through rating of this work which the owner of the shop can rate from our website </p>
+        </div>
+        <div class="step bg-[#2E3192] mr-20   text-white rounded-lg">
+            <p class="fxl text-center"> Step-6</p> 
+             <p class="text-sm text-center"> A person can get access to food and money according to these points through our machine</p>
+        </div>
+        </div>
+    </div>
+    <div class="sdg text-white">
+        <h1 class="fxl mt-3 text-center"> Our services will complete the following sdgs </h1>
+        <div class="sdgs mt-3 flex ">
+            <img  class="sdg1" src="imgs/sdg1.png">
+            <img  class="sdg2" src="imgs/sdg2.png">
+        </div>
+    </div>
+    </main>
+    <footer class="footer mt-5 bg-[#2E3192] ">
+        <div class="container">
+            <div class="footer-section about">
+                <h3>About Us</h3>
+                <p>We provide top-notch services to help you achieve your goals. Our team of professionals is dedicated to delivering the best service possible.</p>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Service St, City, Country</li>
+                    <li><i class="fas fa-phone"></i> +1 234 567 890</li>
+                    <li><i class="fas fa-envelope"></i> info@service.com</li>
+                </ul>
+            </div>
+            <div class="footer-section social">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Service Providing Website. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
